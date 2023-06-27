@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+
+  width: 100%;
+
+  outline: solid saddlebrown 1px;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+componentePrincipal {
+  width: 100%;
+  margin: 50px auto 200px;
+
+  text-align: center;
+}

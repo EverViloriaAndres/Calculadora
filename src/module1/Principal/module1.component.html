@@ -1,0 +1,19 @@
+<span
+  ><h2>{{ title }}</h2>
+  <h4>Calculadora Basica</h4>
+</span>
+<div class="continer">
+  <form action="#">
+    <input type="number" name="numero1" [(ngModel)]="numero1" />
+    <input type="number" name="numero2" [(ngModel)]="numero2" />
+    <div class="botones">
+      <input value="Sumas" type="button" (click)="sumar()" />
+      <input value="Restar" type="button" (click)="restar()" />
+      <input value="Dividir" type="button" (click)="dividir()" />
+      <input value="Multiplicar" type="button" (click)="multiplicar()" />
+      <input value="Potencia" type="button" (click)="potencia()" />
+      <input value="Raiz" type="button" (click)="raiz()" />
+    </div>
+    <label for="">{{ resultado }}</label>
+  </form>
+</div>
